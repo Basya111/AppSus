@@ -1,0 +1,55 @@
+.about-page{
+    background-image: url("../../img/about2.jpg");
+    height: 78h;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+}
+
+.about-container{
+    padding: 50px 20px 220px;
+    height: 78vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+
+.about-header{
+    font-family: ClickeScript, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    font-size: 5rem;
+    
+}
+
+.about-container p{
+    width: 300px;
+    margin: 0 15px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+ /* NARROW */
+
+ @media (min-width: 600px){
+
+    .about-container p{
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+ /* WIDE */
+
+@media (min-width: 1000px){
+
+    .about-container p{
+        width: 600px;
+        margin: 0 auto;
+
+    }
+}

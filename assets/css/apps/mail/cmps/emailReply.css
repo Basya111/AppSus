@@ -1,0 +1,27 @@
+
+.reply-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.reply-body button{
+  background-color: #63737e;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  width:102px;
+  height: 35px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.reply-body textarea{
+  resize: none;
+  border: none;
+  outline: 1px solid #63737e;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  margin: 10px;
+}
+
+

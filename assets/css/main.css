@@ -1,0 +1,15 @@
+/* @import '../../lib/animate.css'; */
+/* Basics */
+@import './basics/base.css';
+@import './basics/fonts.css';
+@import './basics/About.css';
+@import './basics/MainNav.css';
+@import './basics/UserMsg.css';
+@import './basics/HomePage.css';
+
+/* Components */
+
+@import './apps/keep/keepMain.css';
+@import './apps/mail/mailMain.css';
+@import './apps/books/booksMain.css';
+

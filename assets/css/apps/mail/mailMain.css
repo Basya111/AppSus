@@ -1,0 +1,14 @@
+@import './cmps/emailCompose.css';
+@import './cmps/emailPreview.css';
+@import './cmps/emailApp.css';
+@import './cmps/emailList.css';
+@import './cmps/emailFilter.css';
+@import './cmps/emailSort.css';
+@import './cmps/emailSideBar.css';
+@import './cmps/emailDetails.css';
+@import './cmps/emailReply.css';
+
+
+.is-read{
+  background-color: #68737a;
+}

@@ -1,0 +1,124 @@
+/* email-details */
+.email-details{
+  margin: 61px 20px;
+}
+.email-details .email-body{
+  flex-grow: 1;
+  margin-left: 20px;
+  padding: 10px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f0f5f9;
+  max-height: 62vh;
+}
+.email-details .email-body h1{
+  flex-grow: 3;
+}
+.email-details .email-body h3{
+  flex-grow: 2;
+}
+.email-details .email-body pre{
+  flex-grow: 8;
+  overflow-y: scroll;
+  max-width: 700px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  margin: auto;
+  padding: 10px 15px;
+  border: 1px solid #63737e;
+  border-radius: 5px;
+}
+.email-details .email-body pre::-webkit-scrollbar {
+  width: 0.7em;
+}
+ 
+.email-details .email-body pre::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.email-details .email-body pre::-webkit-scrollbar-thumb {
+  background: linear-gradient(#68737a, #c9d6df,#68737a);
+  border-radius: 10px;
+}
+
+.email-details .email-body .actions{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.email-details .email-body .actions button{
+  outline: 0;
+  cursor: pointer;
+  width:102px;
+  border-radius: 15px;
+  border: 0;
+}
+
+.email-details .email-body .actions .delete{
+  background-color: rgb(250, 161, 161);
+  
+}
+.email-details .email-body .actions .delete:hover {
+  background-color: rgb(243, 125, 125);
+}
+
+.email-details .email-body .actions .reply{
+  background-color: rgb(152, 219, 152);
+}
+
+.email-details .email-body .actions .reply:hover {
+  background-color: rgb(87, 224, 87);
+}
+
+.email-details .email-body .actions .back-to-emails{
+  background-color: rgb(224, 233, 148);
+}
+
+.email-details .email-body .actions .back-to-emails:hover {
+  background-color: rgb(215, 228, 97);
+}
+
+.email-details .email-body .invisible{
+  width: 404px;
+  height: 139px;
+}
+@media(max-width:720px){
+  .email-details .email-body{
+    margin:0 auto;
+    margin-top: 10px ;
+    max-width: 350px;
+
+  }
+  .email-details{
+    flex-direction: column;
+  }
+  .email-details .email-body .reply-body textarea{
+    max-width: 200px;
+    font-size: 0.8rem;
+  }
+  .email-details .email-body .reply-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .email-details .email-body .reply-body button{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .email-details .email-body .invisible{
+    width: 100px;
+    height: 160px;
+  }
+}
+@media(max-width:960px){
+
+  .email-details .email-body pre{
+    font-size: 0.75rem;
+  }
+}

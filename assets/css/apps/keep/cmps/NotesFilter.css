@@ -1,0 +1,44 @@
+.note-filter-box{
+    margin: 10px;
+    text-align: center;
+    background-color: #f0f5f9;
+    max-width: 400px;
+    border-radius: 100px;
+}
+
+.note-filter-box img{
+    width: 25px;
+    margin: 5px 5px 0;
+    opacity: 0.8;
+}
+
+.filter-note-input{
+    max-width: 250px;
+    background-color: unset;
+    border: 0;
+    outline: none;
+    margin: 10px auto;
+    font-size: 1.125rem;
+    color: #49555e;
+    font-family: Montserrat, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.filter-note-input::placeholder{
+    font-size: 1.125rem;
+    color: #49555e;
+    font-family: Montserrat, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.select-note{
+    background-color: unset;
+    border: 0;
+    outline: none;
+    font-size: 1.125rem;
+    color: #49555e;
+    font-family: Montserrat, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.select-note option{
+    background-color: #f0f5f9;
+    padding: 5px;
+}
